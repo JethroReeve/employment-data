@@ -23,7 +23,7 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Setup Custom Content
         run: |
-          cp path-to-your-notebook.ipynb content # Adjust the path to your notebook file
+          cp employment_analysis_notebook.ipynb content
       - name: Build the JupyterLite site
         run: |
           cp README.md content
