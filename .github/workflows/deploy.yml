@@ -24,6 +24,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp employment_analysis_notebook.ipynb content/
+          cp README.md content/
           jupyter lite build --contents content --output-dir dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
