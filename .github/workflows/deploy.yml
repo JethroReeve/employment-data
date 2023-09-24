@@ -21,9 +21,6 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-      - name: Setup Custom Content
-        run: |
-          cp employment_analysis_notebook.ipynb content
       - name: Build the JupyterLite site
         run: |
           cp employment_analysis_notebook.ipynb content
