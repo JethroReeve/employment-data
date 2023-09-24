@@ -21,6 +21,9 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
+      - name: Setup Custom Content
+        run: |
+          cp path-to-your-notebook.ipynb content # Adjust the path to your notebook file
       - name: Build the JupyterLite site
         run: |
           cp README.md content
