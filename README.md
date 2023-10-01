@@ -1,4 +1,4 @@
-# My Demo now mwahahaha
+# This project uses the Jupyterlite demo linked below. Check out the employment_analysis.ipynb file with employment_2023.csv to explore some analysis.
 
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
 
